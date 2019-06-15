@@ -64,7 +64,8 @@
         <aside class="sidebar">
             <a class="highlight-feed-ad highlight-feed-primary-widget" href="https://revolver.info">
                 <img src="{{asset "img/revolverLogoBar.svg"}}" alt="Revolver">
-                <p>Die Agentursoftware. Jetzt testen!</p>
+                <p style="margin-top:6px">Die Agentursoftware.</p>
+                <p>Jetzt kostenlos testen!</p>
             </a>
             {{#get "posts" filter="featured:true" include="authors,tags" limit="3"}}
             <div class="post-feed">
@@ -92,7 +93,7 @@
                             </a>
 
                             <footer class="post-card-meta">
-                                {{> "components/author-list"}}
+                                <!-- {{> "components/author-list"}} -->
                                 <span class="reading-time">{{reading_time}}</span>
                             </footer>
 
