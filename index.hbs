@@ -37,9 +37,9 @@
 
                 <a class="changelog-item js-scroll-item {{post_class}}" {{#if canonical_url}}href="{{canonical_url}}" target="_blank" rel="noopener"{{else}}href="{{url}}"{{/if}}>
                     {{#if feature_image}}
-                        <a class="post-card-image-link" href="{{url}}">
+                        <div class="post-card-image-link">
                             <div class="post-card-image" style="background-image: url({{feature_image}})"></div>
-                        </a>
+                        </div>
                     {{/if}}
                     <div class="changelog-item-content">
                         {{#if primary_tag}}
