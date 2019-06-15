@@ -42,10 +42,12 @@
                         </div>
                     {{/if}}
                     <div class="changelog-item-content">
-                        {{#if primary_tag}}
-                        <span class="post-card-tags changelog-tag-{{primary_tag.slug}}">{{primary_tag.name}}</span>
-                        {{/if}}
-                        <time class="changelog-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                        <div class="changelog-item-content-header"></div>
+                          {{#if primary_tag}}
+                          <span class="post-card-tags changelog-tag-{{primary_tag.slug}}">{{primary_tag.name}}</span>
+                          {{/if}}
+                          <time class="changelog-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                        </div>
                         <h2 class="changelog-item-title">{{title}}</h2>
                         <p>{{excerpt}}</p>
                         <div class="readmore">Weiterlesen &raquo;</div>

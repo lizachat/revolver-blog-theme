@@ -2834,12 +2834,18 @@ Usage (In Ghost edtior):
 
 .changelog-item-content p {
   font-size: 100%;
+  margin: 0 0 1em;
 }
 
 .changelog-item img {
     display: block;
     max-width: 100% !important;
     margin: 0 0 1.5em;
+}
+
+.changelog-item-content-header {
+    display: flex;
+    flex-direction: row;
 }
 
 .changelog-tag {
