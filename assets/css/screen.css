@@ -35,10 +35,6 @@ production stylesheet in assets/built/screen.css
 @import "app.css";
 @import "prism.css";
 
-body {
-    background: #f4f8fb;
-}
-
 .img {
     display: block;
     width: 100%;
@@ -2838,9 +2834,6 @@ Usage (In Ghost edtior):
 
 .changelog {
     flex: 1 1 auto;
-    padding: 30px;
-    border: 1px solid #e5eff5;
-    background: #fff;
 }
 
 .changelog-item {
@@ -2849,6 +2842,9 @@ Usage (In Ghost edtior):
     padding: 2rem 0 15px 0;
     margin: 0 0 15px 0;
     color: var(--darkgrey);
+    border-radius: 5px;
+    padding: 18px;
+    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
 }
 
 .changelog-item:hover {
