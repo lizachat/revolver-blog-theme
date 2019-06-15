@@ -1103,6 +1103,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 
 .post-card-tags {
     display: block;
+    margin-right: 1em;
     margin-bottom: 10px;
     color: var(--midgrey);
     font-size: 1.1rem;
@@ -2891,7 +2892,7 @@ Usage (In Ghost edtior):
     display: block;
     left: 0;
     font-size: 1.1rem;
-    line-height: 1.6em;
+    line-height: 1.15em;
     color: var(--midgrey);
 }
 
