@@ -25,9 +25,6 @@
             {{^has tag="#noimg"}}{{!--If post has tag #noimg, then we skip the feature image--}}
             {{#if feature_image}}
             <figure class="post-full-image" style="background-image: url({{feature_image}})">
-                <div class="post-full-introauthors">
-                    {{> components/author-accordion}}
-                </div>
             </figure>
             {{/if}}
             {{/has}}
