@@ -1,6 +1,6 @@
 {
     "name": "blog",
-    "description": "The Ghost company blog theme which runs on blog.ghost.org and dev.ghost.org",
+    "description": "The Revolver company blog theme",
     "version": "5.0.0",
     "engines": {
         "ghost": ">=2.0.0",
@@ -16,9 +16,9 @@
         "ship": "STATUS=$(git status --porcelain); echo $STATUS; if [ -z \"$STATUS\" ]; then yarn version && git push --follow-tags; fi"
     },
     "author": {
-        "name": "Ghost Foundation",
-        "email": "hello@ghost.org",
-        "url": "https://ghost.org"
+        "name": "Revolver Software GmbH",
+        "email": "info@revolver.info",
+        "url": "https://revolver.info"
     },
     "gpm": {
         "type": "theme",
