@@ -2235,7 +2235,6 @@ Usage (In Ghost edtior):
     margin: 0 0 0 20px;
     font-size: 1.6rem;
     line-height: 1em;
-    letter-spacing: -1px;
     text-overflow: ellipsis;
     white-space: nowrap;
 }
@@ -2245,7 +2244,7 @@ Usage (In Ghost edtior):
     align-items: center;
     color: var(--darkgrey);
     line-height: 1.1em;
-    font-weight: 700;
+    font-weight: normal;
 }
 
 .floating-header-logo a:hover {
