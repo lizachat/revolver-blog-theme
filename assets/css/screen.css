@@ -196,7 +196,7 @@ body {
     z-index: 10;
     margin: 0;
     padding: 5px 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 2.4rem;
     font-weight: 300;
     letter-spacing: 0.5px;
@@ -251,7 +251,7 @@ body {
     max-width: 680px;
     margin: 8px 0 0 0;
     padding: 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
@@ -399,7 +399,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     display: block;
     margin: 5px 0 0 0;
     max-width: 220px;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1.4rem;
     line-height: 1.3em;
 }
@@ -625,7 +625,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     margin: 50px auto 30px;
     font-size: 2.8rem;
     line-height: 1.5em;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     opacity: 0.8;
 }
 
@@ -728,7 +728,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 }
 
 .podcast-card-excerpt {
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
 }
 
 .podcast-card-excerpt p {
@@ -830,7 +830,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     margin: 40px auto 0;
     font-size: 2.8rem;
     line-height: 1.5em;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     color: var(--darkgrey);
     opacity: 0.7;
 }
@@ -995,7 +995,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     border: 0;
     font-size: 1.9rem;
     line-height: 1.6em;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     opacity: 0.8;
 }
 
@@ -1131,12 +1131,11 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 }
 
 .post-card-excerpt {
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
 }
 
 .post-card-excerpt p {
     letter-spacing: normal;
-    line-height: 1.75em;
 }
 
 .post-card-meta {
@@ -1342,7 +1341,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     min-height: 230px;
     margin: 0 auto;
     padding: 90px 140px 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1.9rem;
     line-height: 1.75em;
     background: #fff;
@@ -1795,7 +1794,7 @@ Usage (In Ghost edtior):
     max-width: 600px;
     margin: 0.5em auto 2em;
     color: color(var(--midgrey) l(-5%));
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 2rem;
     line-height: 1.55em;
 }
@@ -1912,7 +1911,7 @@ Usage (In Ghost edtior):
 .post-full-authors-names {
     display: block;
     margin-top: 5px;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1.5rem;
     font-style: italic;
     text-transform: none;
@@ -2027,7 +2026,7 @@ Usage (In Ghost edtior):
 }
 
 .author-card-bio p {
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 1.5rem;
     line-height: 1.5em;
 }
@@ -2478,7 +2477,7 @@ Usage (In Ghost edtior):
 .post-feature-excerpt {
     max-width: 760px;
     line-height: 1.5em;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     opacity: 0.8;
 }
 
@@ -2511,7 +2510,7 @@ Usage (In Ghost edtior):
 }
 
 .post-feature-authors em {
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     text-transform: none;
 }
 
@@ -2675,7 +2674,7 @@ Usage (In Ghost edtior):
     flex-shrink: 0;
     max-width: 600px;
     margin: 0 0 10px 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-size: 2.2rem;
     line-height: 1.5em;
     font-weight: 300;
@@ -2690,7 +2689,7 @@ Usage (In Ghost edtior):
     justify-content: center;
     align-items: center;
     margin: 0 0 10px 0;
-    font-family: var(--serif);
+    font-family: var(--sans-serif);
     font-style: italic;
 }
 
@@ -2859,7 +2858,7 @@ Usage (In Ghost edtior):
 .changelog-item-sidebar {
     flex: 0 0 100px;
     margin-right: 20px;
-    margin-top: 3px;
+    margin-top: 2px;
     text-align: right;
 }
 
@@ -2867,6 +2866,10 @@ Usage (In Ghost edtior):
     flex: 1 1 auto;
     position: relative;
     border-bottom: rgba(0,0,0,0.05) 1px solid;
+}
+
+.changelog-item-content p {
+  font-size: 100%;
 }
 
 .changelog-item img {
