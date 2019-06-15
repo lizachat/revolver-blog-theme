@@ -2859,6 +2859,7 @@ Usage (In Ghost edtior):
 .changelog-item-sidebar {
     flex: 0 0 100px;
     margin-right: 20px;
+    margin-top: 3px;
     text-align: right;
 }
 
@@ -2903,8 +2904,8 @@ Usage (In Ghost edtior):
 }
 
 .changelog-item-title {
-    margin-top: 1px;
-    font-size: 2rem;
+    margin-top: 0;
+    font-size: 2.4rem;
     font-weight: bold;
 }
 
@@ -2918,7 +2919,7 @@ Usage (In Ghost edtior):
     position: absolute;
     top: -1.5rem;
     left: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1em;
     color: var(--midgrey);
 }
