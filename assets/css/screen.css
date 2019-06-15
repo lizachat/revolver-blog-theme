@@ -2891,6 +2891,7 @@ Usage (In Ghost edtior):
     flex: 1 0 100%;
     display: block;
     left: 0;
+    margin-bottom: 10px;
     font-size: 1.1rem;
     line-height: 1.15em;
     color: var(--midgrey);

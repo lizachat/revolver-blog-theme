@@ -10,19 +10,25 @@
 
                 <div class="changelog-item js-scroll-item {{post_class}}">
                     {{#if feature_image}}
-                    <img class="changelog-image"
+                    {{#if feature_image}}
+                        <div class="post-card-image-link">
+                            <div class="post-card-image" style="background-image: url({{feature_image}})"></div>
+                        </div>
+                    {{/if}}
+                    <!-- <img class="changelog-image"
                           srcset="{{img_url feature_image size="s"}} 300w,
                               {{img_url feature_image size="m"}} 600w,
                               {{img_url feature_image size="l"}} 1000w,
                               {{img_url feature_image size="xl"}} 2000w" sizes="(max-width: 1000px) 400px, 700px" src="{{img_url feature_image size="m"}}" alt="{{title}}"
-                    />
+                    /> -->
                     {{/if}}
-                    <div class="changelog-item-sidebar">
-                        {{#if primary_tag}}
-                        <span class="changelog-tag changelog-tag-{{primary_tag.slug}}">{{primary_tag.name}}</span>
-                        {{/if}}
-                    </div>
                     <div class="changelog-item-content">
+                        <div class="changelog-item-content-header">
+                          {{#if primary_tag}}
+                          <span class="post-card-tags changelog-tag-{{primary_tag.slug}}">{{primary_tag.name}}</span>
+                          {{/if}}
+                          <time class="changelog-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time>
+                        </div>
                         <a {{#if canonical_url}}href="{{canonical_url}}" target="_blank" rel="noopener" {{else}}href="{{url}}" {{/if}}><time class="changelog-date" datetime="{{date format="YYYY-MM-DD"}}">{{date format="D MMM YYYY"}}</time></a>
                         <h2 class="changelog-item-title">{{title}}</h2>
                         {{#if feature_image}}
@@ -91,8 +97,9 @@
                             </a>
 
                             <footer class="post-card-meta">
+                                <div class="readmore">Weiterlesen &raquo;</div>
                                 <!-- {{> "components/author-list"}} -->
-                                <span class="reading-time">{{reading_time}}</span>
+                                <!-- <span class="reading-time">{{reading_time}}</span> -->
                             </footer>
 
                         </div>
