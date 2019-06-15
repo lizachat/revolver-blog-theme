@@ -2911,7 +2911,7 @@ Usage (In Ghost edtior):
 }
 
 .changelog-item:hover .readmore {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .sidebar {
