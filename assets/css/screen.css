@@ -360,13 +360,13 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     background: #fff center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 8px 14px 38px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
     transition: all 0.5s ease;
 }
 
 .highlight-feed-primary-widget:hover {
     text-decoration: none;
-    box-shadow: rgba(39,44,49,0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: rgba(39,44,49,0.1) 8px 28px 50px, rgba(39, 44, 49, 0.05) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
 }
@@ -691,12 +691,12 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     background: #fff center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 8px 14px 38px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
     transition: all 0.5s ease;
 }
 
 .podcast-card:hover {
-    box-shadow: rgba(39,44,49,0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: rgba(39,44,49,0.12) 8px 28px 50px, rgba(39, 44, 49, 0.06) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
 }
@@ -885,7 +885,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     background: #fff;
     border-radius: 10px;
     transform: scale(1.15);
-    box-shadow: rgba(39,44,49,0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: rgba(39,44,49,0.1) 8px 28px 50px, rgba(39, 44, 49, 0.05) 1px 6px 12px;
 }
 
 .newsletter-form {
@@ -1068,12 +1068,12 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     background: #fff center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 8px 14px 38px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
     transition: all 0.5s ease;
 }
 
 .post-card:hover {
-    box-shadow: rgba(39,44,49,0.07) 8px 28px 50px, rgba(39, 44, 49, 0.04) 1px 6px 12px;
+    box-shadow: rgba(39,44,49,0.12) 8px 28px 50px, rgba(39, 44, 49, 0.06) 1px 6px 12px;
     transition: all 0.4s ease;
     transform: translate3D(0, -1px, 0) scale(1.02);
 }
@@ -1218,7 +1218,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     white-space: nowrap;
     background: var(--darkgrey);
     border-radius: 3px;
-    box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 0 12px 26px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
     transform: translateY(6px);
@@ -1955,7 +1955,7 @@ Usage (In Ghost edtior):
     font-size: 1.4rem;
     background: white;
     border-radius: 6px;
-    box-shadow: rgba(39,44,49,0.08) 0 12px 26px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 0 12px 26px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
     opacity: 0;
     transition: all 0.3s cubic-bezier(0.4, 0.01, 0.165, 0.99);
     transform: scale(0.98) translateY(15px);
@@ -2088,7 +2088,7 @@ Usage (In Ghost edtior):
     background: var(--darkgrey) center center;
     background-size: cover;
     border-radius: 5px;
-    box-shadow: rgba(39,44,49,0.06) 8px 14px 38px, rgba(39, 44, 49, 0.03) 1px 3px 8px;
+    box-shadow: rgba(39,44,49,0.1) 8px 14px 38px, rgba(39, 44, 49, 0.05) 1px 3px 8px;
 }
 
 .read-next-card:before {
@@ -2829,7 +2829,7 @@ Usage (In Ghost edtior):
 .home-wrap {
     flex: 0 0 auto;
     display: flex;
-    margin-top: 4vw;
+    margin-top: 3vw;
 }
 
 .changelog {
@@ -2839,12 +2839,13 @@ Usage (In Ghost edtior):
 .changelog-item {
     position: relative;
     display: flex;
+    flex-direction: column;
     padding: 2rem 0 15px 0;
     margin: 0 0 15px 0;
     color: var(--darkgrey);
     border-radius: 5px;
     padding: 18px;
-    box-shadow: 8px 14px 38px rgba(39,44,49,.06), 1px 3px 8px rgba(39,44,49,.03);
+    box-shadow: 8px 14px 38px rgba(39,44,49,.1), 1px 3px 8px rgba(39,44,49,.05);
 }
 
 .changelog-item:hover {
@@ -2852,16 +2853,12 @@ Usage (In Ghost edtior):
 }
 
 .changelog-item-sidebar {
-    flex: 0 0 100px;
-    margin-right: 20px;
-    margin-top: 2px;
-    text-align: right;
+    flex: 0;
 }
 
 .changelog-item-content {
     flex: 1 1 auto;
     position: relative;
-    border-bottom: rgba(0,0,0,0.05) 1px solid;
 }
 
 .changelog-item-content p {
@@ -2915,11 +2912,9 @@ Usage (In Ghost edtior):
 .changelog-date {
     flex: 1 0 100%;
     display: block;
-    position: absolute;
-    top: -1.5rem;
     left: 0;
     font-size: 1.1rem;
-    line-height: 1em;
+    line-height: 1.6em;
     color: var(--midgrey);
 }
 
@@ -2929,7 +2924,6 @@ Usage (In Ghost edtior):
 
 .readmore {
     display: block;
-    margin: 0 0 1.5em 0;
     color: var(--blue);
 }
 
