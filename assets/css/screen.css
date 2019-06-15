@@ -1333,7 +1333,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     position: relative;
     min-height: 230px;
     margin: 0 auto;
-    padding: 90px 140px 0;
+    padding: 60px 140px 0;
     font-family: var(--sans-serif);
     font-size: 1.9rem;
     line-height: 1.75em;
@@ -2889,6 +2889,10 @@ Usage (In Ghost edtior):
 }
 
 .changelog-image {
+    width: auto;
+    height: 200px;
+    background: var(--lightgrey) no-repeat center center;
+    background-size: cover;
     margin: 0 0 1.5em 0;
 }
 
