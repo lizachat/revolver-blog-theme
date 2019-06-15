@@ -2905,7 +2905,7 @@ Usage (In Ghost edtior):
 .changelog-item-title {
     margin-top: 1px;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: bold;
 }
 
 .changelog-item.tag-hash-minor .changelog-item-title {
