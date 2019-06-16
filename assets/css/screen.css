@@ -1130,6 +1130,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 
 .post-card-excerpt p {
     letter-spacing: normal;
+    margin: 0 0 1em;
 }
 
 .post-card-meta {
