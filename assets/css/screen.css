@@ -1122,7 +1122,6 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 20px;
 }
 
 .post-card-excerpt {
@@ -2832,7 +2831,7 @@ Usage (In Ghost edtior):
 .changelog-item-content {
     flex: 1 1 auto;
     position: relative;
-    padding: 25px 25px 20px 25px;
+    padding: 25px 25px 0;
 }
 
 .changelog-item-content p {
@@ -2910,6 +2909,7 @@ Usage (In Ghost edtior):
 .readmore {
     display: block;
     color: var(--blue);
+    padding-bottom: 22px;
 }
 
 .changelog-item:hover .readmore {
