@@ -1130,7 +1130,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 
 .post-card-excerpt p {
     letter-spacing: normal;
-    margin: 0 0 1em;
+    margin: 0 0 0.8em;
 }
 
 .post-card-meta {
@@ -1485,7 +1485,7 @@ Usage (In Ghost edtior):
 }
 
 .post-full-content blockquote p {
-    margin: 0 0 1em 0;
+    margin: 0 0 0.8em 0;
     color: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -2836,7 +2836,7 @@ Usage (In Ghost edtior):
 
 .changelog-item-content p {
   font-size: 100%;
-  margin: 0 0 1em;
+  margin: 0 0 0.8em;
 }
 
 .changelog-item img {
