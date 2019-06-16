@@ -195,7 +195,6 @@ production stylesheet in assets/built/screen.css
     font-family: var(--sans-serif);
     font-size: 2.4rem;
     font-weight: 300;
-    letter-spacing: 0.5px;
     opacity: 0.8;
 }
 
@@ -239,7 +238,6 @@ production stylesheet in assets/built/screen.css
     color: var(--darkgrey);
     font-size: 4.6rem;
     font-weight: 700;
-    letter-spacing: -0.5px;
 }
 
 .tag-description {
@@ -251,7 +249,6 @@ production stylesheet in assets/built/screen.css
     font-size: 1.8rem;
     line-height: 1.5em;
     font-weight: 300;
-    letter-spacing: -0.2px;
     opacity: 0.8;
 }
 
@@ -1129,7 +1126,6 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
 }
 
 .post-card-excerpt p {
-    letter-spacing: normal;
     margin: 0 0 0.8em;
 }
 
@@ -1213,7 +1209,6 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     padding: 2px 8px;
     color: white;
     font-size: 1.2rem;
-    letter-spacing: 0.2px;
     white-space: nowrap;
     background: var(--darkgrey);
     border-radius: 3px;
@@ -1718,7 +1713,6 @@ Usage (In Ghost edtior):
     color: var(--darkgrey);
     font-size: 1.2rem;
     font-weight: 700;
-    letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
     background-color: color(var(--whitegrey) l(+4%));
@@ -1868,7 +1862,6 @@ Usage (In Ghost edtior):
     font-family: var(--sans-serif);
     color: var(--midgrey);
     font-size: 1.3rem;
-    letter-spacing: 0.2px;
     text-align: center;
     font-weight: 600;
     letter-spacing: 1px;
@@ -2147,7 +2140,6 @@ Usage (In Ghost edtior):
     font-size: 1.6rem;
     line-height: 1.25em;
     font-weight: 200;
-    letter-spacing: -0.5px;
 }
 
 .read-next-card-content li a {
@@ -2644,7 +2636,6 @@ Usage (In Ghost edtior):
     font-size: 2.2rem;
     line-height: 1.5em;
     font-weight: 300;
-    letter-spacing: 0.5px;
     opacity: 0.8;
 }
 
@@ -2731,7 +2722,6 @@ Usage (In Ghost edtior):
     .author-template .site-header-content .author-bio {
         font-size: 1.8rem;
         line-height: 1.15em;
-        letter-spacing: 0;
     }
     .author-location,
     .author-stats {
