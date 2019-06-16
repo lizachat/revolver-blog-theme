@@ -1122,6 +1122,7 @@ body:not(.gh-head-transparent) .highlight-feed .inner {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 25px;
 }
 
 .post-card-excerpt {
